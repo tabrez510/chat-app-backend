@@ -25,7 +25,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server, {
     cors: {
-        origin: "http://127.0.0.1:5501"
+        origin: "https://chat-app-frontend-psi-steel.vercel.app"
     }
 });
 initializeSocket(io);
