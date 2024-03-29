@@ -59,7 +59,7 @@ app.set('io', io);
 // });
 
 app.use(cors({
-    origin: "http://127.0.0.1:5501",
+    origin: "https://chat-app-frontend-psi-steel.vercel.app",
     exposedHeaders: ['Isadmin', 'X-My-Custom-Header']
 }));
 
